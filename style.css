@@ -61,11 +61,20 @@ body {
   }
   
   .lett-footer {
-    display: block;
     width: 60%;
-    margin: auto;
+
+    fill: #FFF;
+    opacity: 0.5;
+
+    position: absolute;
+    left: 20%;
+    margin-top: 20%;
   }
   
+  .container-footer {
+    position: relative;
+  }
+
   @keyframes lett-preenchimento {
       to {
           fill: #BE253F;
